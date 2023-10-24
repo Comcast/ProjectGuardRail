@@ -4,7 +4,7 @@ Additional-1 requirements are a set of requirements that must be met <b>in addit
 
 There are 6 questions in total that should be filled out by the development team/ML engineer for the application. 
 
-Questions highlighted in <b>bold</b> are those which require minor testing before answering the question.
+Questions highlighted in <b>bold</b> indicate those which require minor testing before the question can be answered. 
 
 | Category      | Description |
 | ----------- | ----------- |
