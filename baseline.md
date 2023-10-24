@@ -4,7 +4,7 @@ Baseline requirements are the minimum set of requirements that <b>all AI/ML syst
 
 There are 28 questions that should be filled out by the development team/ML engineer for the application. The last question is specific to Generative AI applications only. 
 
-Questions highlight in <b>bold</b> indicate those which require minor testing before the question can be answered. 
+Questions highlighted in <b>bold</b> indicate those which require minor testing before the question can be answered. 
 
 | CATEGORY              | DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
