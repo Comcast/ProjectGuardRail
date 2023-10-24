@@ -4,7 +4,7 @@ Additional-2 requirements are a set of requirements that must be met <b> in addi
 
 There are 19 questions in total, all of them being yes/no questions that should be filled out by the development team/ML engineer for the application. The last 3 questions are specific to generative AI applications only. 
 
-Questions highlighted in <b>bold</b> require minor testing before answering. 
+Questions highlighted in <b>bold</b> indicate those which require minor testing before the question can be answered.  
 
 | CATEGORY              | DESCRIPTION                                                                                                                                                                                                                                                                                                |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
