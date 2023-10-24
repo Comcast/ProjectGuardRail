@@ -31,7 +31,7 @@ As shown in the diagram below, the "Questionnaire for Manual Threat Modeling" de
 
 Generative AI questions are differentiated and put into a separate group under each category if applicable.
 
-![Structure-Diagram-GuardRail](https://github.comcast.com/storage/user/42651/files/a0b6c092-4220-4ccd-9692-3ef292832931)
+![Structure-Diagram-GuardRail](assets/Structure-Diagram-GuardRail.jpg)
 
 Each of the requirements are divided into four sub categories - data, model, artefact (output), and system/infrastructure, depending on which element of the ML application a threat is applicable to. 
 
@@ -40,7 +40,7 @@ Each of the requirements are divided into four sub categories - data, model, art
 ## Usage
 This requirement document can be used as an assessment for both AI/ML applications as well as new third-party AI vendors. After an application undergoes the usual security review process and it is determined that it is not an AI/ML-driven application, the review ends. Otherwise, the application developers can take the baseline assessment. Following this, depending on whether the underlying model fits into the two additional categories outlined above, additional assessment questions can be added. This questionnaire can then be reported to the threat modeling team for review. 
 
-![Process-Diagram-GuardRail](https://github.comcast.com/storage/user/42651/files/b9083752-182f-4691-bc12-823fec5b24e8)
+![Process-Diagram-GuardRail](assets/Process-Diagram-GuardRail.jpg)
 
 ## Sources
 - Plot4AI: https://plot4.ai/ 
