@@ -1,10 +1,11 @@
-<h1 align="center"> Project GuardR(ai)l </h1>
+
+![image](https://github.com/Comcast/ProjectGuardRail/assets/16128743/03af5796-7b30-4c43-9fbd-6cd834833ae4)
+
 
 <p align="center">AI Threat Modeling Solution<br> 
-<i><b>Questionnaire to identify threats in AI/ML applications</b></i><br>
+<i><b>Questionnaire to identify threats in AI/ML applications </b></i><br>
 Developed by the Comcast SPIDER Team</p>
 
----
 
 ## Contents
 
