@@ -59,7 +59,7 @@ This requirement document can be used as an assessment for both AI/ML applicatio
 This repository will be updated as we use additional sources to update the library if required. 
 
 ## Contributions 
-Contributions and suggestions from the open-source is welcome. Please refer to the [Contributing.md](CONTRIBUTING.md) document for more information. All contributions must follow the [Comcast Code of Conduct](CODE_OF_CONDUCT.md).
+Contributions and suggestions from the open-source community are welcome. Please refer to the [Contributing.md](CONTRIBUTING.md) document for more information. All contributions must follow the [Comcast Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
