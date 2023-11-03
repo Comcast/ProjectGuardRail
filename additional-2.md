@@ -1,6 +1,6 @@
 ## Additional - 2 - User Data Interaction: 
 
-Additional-2 requirements are a set of requirements that must be met <b> in addition to baseline if an AI/ML application if it is either using user data as input to the model or interacting with end-users </b> in some way. 
+Additional-2 requirements are a set of requirements that must be met <b> in addition to baseline if an AI/ML application is either using user data as input to the model or is interacting with end-users </b> in some way. 
 
 There are 19 questions in total, all of them being yes/no questions that should be filled out by the development team/ML engineer for the application. The last 3 questions are specific to generative AI applications only. 
 
