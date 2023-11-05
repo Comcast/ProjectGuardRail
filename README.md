@@ -26,9 +26,9 @@ For every application, security and privacy threat models are conducted as usual
 
 As shown in the diagram below, the "Questionnaire for Manual Threat Modeling" defines the library. The 53 threats (and 4 additional generative AI threats) are divided into three categories as shown. 
 
-- All AI/ML applications must meet the 28 [baseline](baseline.md) requirements.   
-- If an application is continuously learning, they must meet 6 [additional](1additional.md) requirements apart from baseline.
-- If they EITHER train on user data OR interact with users, they must meet 19 [additional](2additional.md) requirements apart from baseline.
+- All AI/ML applications must meet the 28 [./baseline](baseline.md) requirements.   
+- If an application is continuously learning, they must meet 6 [additional](./additional-1.md) requirements apart from baseline.
+- If they EITHER train on user data OR interact with users, they must meet 19 [additional](./additional-2.md) requirements apart from baseline.
 
 Generative AI questions are differentiated and put into a separate group under each category if applicable.
 
