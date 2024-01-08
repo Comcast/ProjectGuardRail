@@ -42,7 +42,7 @@ Questions highlighted in <b>bold</b> indicate those which require minor testing 
 ||
 | **Generative AI**   |
 ||
-| **Model** | <b>Did you test if the model can make automated incorrect decisions based if inccorect input (prompt) is provided when it self learns?</b> <br> _To prevent this, applications typically limit the scope of the data provided to the model as input to a specific purpose. There are guardrails built to reject unexpected data._  |
+| **Model** | <b>Did you test if the model can make automated incorrect decisions if inccorect input (prompt) is provided when it self learns?</b> <br> _To prevent this, applications typically limit the scope of the data provided to the model as input to a specific purpose. There are guardrails built to reject unexpected data._  |
 ||
 
 	
