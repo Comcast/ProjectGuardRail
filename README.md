@@ -26,7 +26,7 @@ As shown in the diagram below, the "Questionnaire for Manual Threat Modeling" de
 
 - All AI/ML applications must meet the 28 [baseline](./baseline.md) requirements.   
 - If an application is continuously learning, it must meet 6 [additional](./additional-1.md) requirements in addition to the baseline.
-- If an application EITHER traisn on user data OR interacts with users, it must meet 19 [additional](./additional-2.md) requirements.
+- If an application EITHER trains on user data OR interacts with users, it must meet 19 [additional](./additional-2.md) requirements.
 
 Generative AI questions are differentiated and put into a separate group under each category if applicable.
 
