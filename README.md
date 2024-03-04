@@ -52,7 +52,6 @@ This threat modeling questionnaire can be used as an assessment for both AI/ML a
 - Amershi et al., Guidelines for Human-AI Interaction: https://dl.acm.org/doi/10.1145/3290605.3300233
 - Kotenko et al., Attacks Against Artificial Intelligence Systems: Classification, The Threat Model and the Approach to Protection: https://link.springer.com/chapter/10.1007/978-3-031-19620-1_28
 - MITRE ATLAS: https://atlas.mitre.org/
-- Gartner MOST Framework: https://blogs.gartner.com/avivah-litan/2021/01/21/top-5-priorities-for-managing-ai-risk-within-gartners-most-framework/
 
 This repository will be updated as we use additional sources to update the library if required. 
 
