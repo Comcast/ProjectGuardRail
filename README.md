@@ -9,6 +9,23 @@ Developed by the Comcast SPIDER Team</p>
 
 ## Contents
 
+- [Project GuardRail](#project-guardrail)
+- [Structure](#structure)
+- [Usage](#usage)
+- [Publications](#publications)
+- [Talks](#talks)
+- [External Visibility](#external-visibility)
+- [Roadmap](#roadmap)
+- [Sources](#sources)
+- [Contributions](#contributions)
+- [License](#license)
+
+## Project GuardRail
+
+Project GuardRail is a comprehensive security framework specifically designed to address the unique security threats faced by AI/ML applications. It provides a questionnaire-based approach to threat modeling, ensuring that security and privacy requirements are met during the design phase. By acting as guardrails, Project GuardRail helps protect AI/ML applications against these threats.
+
+<!--## Contents
+
 - [Overview](#overview)
 - [Structure](#structure)
 - [Usage](#usage)
@@ -22,7 +39,7 @@ Developed by the Comcast SPIDER Team</p>
 
 ## Overview
 
-AI/ML applications have unique security threats. Project GuardRail provides a questionnaire that includes a set of threat modeling questions for AI/ML applications. It helps ensure to meeting security and privacy requirements during the design phase, which serve as guardrails against those threats. The requirements help scope the threats to protect AI/ML applications against. It consists of a baseline set required for **all** AI/ML applications and two additional set of requirements that are specific to **continuous learning** and **user-interacting** models. There are four additional questions that are specific to generative AI applications only. 
+AI/ML applications have unique security threats. Project GuardRail provides a questionnaire that includes a set of threat modeling questions for AI/ML applications. It helps ensure to meeting security and privacy requirements during the design phase, which serve as guardrails against those threats. The requirements help scope the threats to protect AI/ML applications against. It consists of a baseline set required for **all** AI/ML applications and two additional set of requirements that are specific to **continuous learning** and **user-interacting** models. There are four additional questions that are specific to generative AI applications only. -->
 
 ## Structure
 The content of this library is derived from a variety of frameworks, lists, and sources, both from academia and industry. We have performed several iterations to refine the library to accurately determine the scope and language of the questions. The [sources](#sources) provided below offer a comprehensive list of all the materials contributing to this library. 
