@@ -15,6 +15,7 @@ Developed by the Comcast SPIDER Team</p>
 - [Publications](#publications)
 - [Talks](#talks)
 - [External Visibility](#external-visibility)
+- [Roadmap](#roadmap)
 - [Sources](#sources)
 - [Contributions](#contributions)
 - [License](#license)
@@ -61,6 +62,12 @@ Yasmine Abdillahi, Jayati Dev. AI Risk Management: Adopt and Scale AI Threat Mod
 
 [OECD Catalogue of Tools & Metrics for Trustworthy AI](https://oecd.ai/en/catalogue/tools/project-guardrail)(2023) 
 
+## Roadmap
+Roadmap information is available in [CONTRIBUTION ROADMAP.md](CONTRIBUTION-ROADMAP.md).
+
+
+## Contributions 
+Contributions and suggestions from the open-source community are welcome. Please refer to the [Contributing.md](CONTRIBUTING.md) document for more information. All contributions must follow the [Comcast Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Sources
 - Plot4AI: https://plot4.ai/ 
@@ -75,9 +82,6 @@ Yasmine Abdillahi, Jayati Dev. AI Risk Management: Adopt and Scale AI Threat Mod
 - MITRE ATLAS: https://atlas.mitre.org/
 
 This repository will be updated as we use additional sources to update the library if required. 
-
-## Contributions 
-Contributions and suggestions from the open-source community are welcome. Please refer to the [Contributing.md](CONTRIBUTING.md) document for more information. All contributions must follow the [Comcast Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
