@@ -13,6 +13,7 @@ Developed by the Comcast SPIDER Team</p>
 - [Structure](#structure)
 - [Usage](#usage)
 - [Sources](#sources)
+- [Contributions](#contributions)
 - [License](#license)
 
 ## Overview
