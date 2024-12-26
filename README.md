@@ -42,6 +42,14 @@ This threat modeling questionnaire can be used as an assessment for both AI/ML a
 
 ![Process-Diagram-GuardRail](assets/Process-Diagram-GuardRail.jpg)
 
+## List of Publications
+Jayati Dev, Nuray Baltaci Akhuseyinoglu, Golam Kayas, Bahman Rashidi, Vaibhav Garg. [Building Guardrails in AI Systems with Threat Modeling](https://dl.acm.org/doi/abs/10.1145/3674845). Digital Government: Research and Practice (2024).
+
+## List of Talks
+Nuray Baltaci Akhuseyinoglu. AI Under the Hood: Unmasking Hidden Threats. [OWASP LASCON 2024](https://lascon.org/past-lascon-2024/).
+
+Nitish Uplavikar. AI Under the Hood: Unmasking Hidden Threats. [OWASP AppSec 2024]([https://lascon.org/past-lascon-2024/](https://owasp2024globalappsecsanfra.sched.com/2024-09-27/overview)).
+
 ## Sources
 - Plot4AI: https://plot4.ai/ 
 - NIST AI Risk Management Framework 1.0: https://www.nist.gov/itl/ai-risk-management-framework 
