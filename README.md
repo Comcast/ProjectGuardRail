@@ -12,6 +12,9 @@ Developed by the Comcast SPIDER Team</p>
 - [Overview](#overview)
 - [Structure](#structure)
 - [Usage](#usage)
+- [Publications](#publications)
+- [Talks](#talks)
+- [External Visibility](#external-visibility)
 - [Sources](#sources)
 - [Contributions](#contributions)
 - [License](#license)
@@ -42,13 +45,22 @@ This threat modeling questionnaire can be used as an assessment for both AI/ML a
 
 ![Process-Diagram-GuardRail](assets/Process-Diagram-GuardRail.jpg)
 
-## List of Publications
+## Publications
 Jayati Dev, Nuray Baltaci Akhuseyinoglu, Golam Kayas, Bahman Rashidi, Vaibhav Garg. [Building Guardrails in AI Systems with Threat Modeling](https://dl.acm.org/doi/abs/10.1145/3674845). Digital Government: Research and Practice (2024).
 
-## List of Talks
+## Talks
 Nuray Baltaci Akhuseyinoglu. AI Under the Hood: Unmasking Hidden Threats. [OWASP LASCON 2024](https://lascon.org/past-lascon-2024/).
 
-Nitish Uplavikar. AI Under the Hood: Unmasking Hidden Threats. [OWASP AppSec 2024]([https://lascon.org/past-lascon-2024/](https://owasp2024globalappsecsanfra.sched.com/2024-09-27/overview)).
+Nitish Uplavikar. AI Under the Hood: Unmasking Hidden Threats. [OWASP AppSec 2024](https://owasp2024globalappsecsanfra.sched.com/2024-09-27/overview).
+
+Yasmine Abdillahi, Jayati Dev. AI Risk Management: Adopt and Scale AI Threat Modeling. Executive Women’s Forum.  (2023)
+
+## External Visibility
+
+[NIST AI Risk Management Framework Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#:~:text=MEASURE-,2.7,-AI%20system%20security), Measure 2.7(2024)
+
+[OECD Catalogue of Tools & Metrics for Trustworthy AI](https://oecd.ai/en/catalogue/tools/project-guardrail)(2023) 
+
 
 ## Sources
 - Plot4AI: https://plot4.ai/ 
