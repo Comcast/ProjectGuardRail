@@ -7,9 +7,10 @@
 Developed by the Comcast SPIDER Team</p>
 
 
-## Contents
+# Contents
 
 - [Project GuardRail](#project-guardrail)
+- [Quickstart](#quick-start)
 - [Structure](#structure)
 - [Usage](#usage)
 - [Publications](#publications)
@@ -20,9 +21,19 @@ Developed by the Comcast SPIDER Team</p>
 - [Contributions](#contributions)
 - [License](#license)
 
-## Project GuardRail
+# Project GuardRail
 
 Project GuardRail is a comprehensive security framework specifically designed to address the unique security threats faced by AI/ML applications. It provides a questionnaire-based approach to threat modeling, ensuring that security and privacy requirements are met during the design phase. By acting as guardrails, Project GuardRail helps protect AI/ML applications against these threats.
+
+# Quick Start
+
+To quickly get started with Project GuardRail, follow these steps:
+
+1. Familiarize yourself with the threat modeling questionnaire and its structure.
+
+2. Determine the category that your AI/ML application falls into: baseline, continuous learning, user-interacting, or generative AI.
+3. 
+4. Assess your application against the relevant set of requirements outlined in the questionnaire.
 
 <!--## Contents
 
