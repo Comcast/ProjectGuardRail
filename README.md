@@ -11,6 +11,8 @@ Developed by the Comcast SPIDER Team</p>
 
 - [Project GuardRail](#project-guardrail)
 - [Quickstart](#quick-start)
+- [Who Can Benefit](#who-can-benefit)
+- [Purpose](#purpose)
 - [Structure](#structure)
 - [Usage](#usage)
 - [Publications](#publications)
@@ -23,17 +25,49 @@ Developed by the Comcast SPIDER Team</p>
 
 # Project GuardRail
 
-Project GuardRail is a comprehensive security framework specifically designed to address the unique security threats faced by AI/ML applications. It provides a questionnaire-based approach to threat modeling, ensuring that security and privacy requirements are met during the design phase. By acting as guardrails, Project GuardRail helps protect AI/ML applications against these threats.
+Project GuardRail is a comprehensive security framework that focuses on AI risk assessment across the entire lifecycle of AI applications. It is specifically designed to address the unique security risks faced by AI/ML applications. It provides a questionnaire-based approach to identify and assess potential risks associated with AI technologies, enabling organizations to make informed decisions and implement appropriate risk mitigation measures.
+
+<!--Project GuardRail is a comprehensive security framework specifically designed to address the unique security threats faced by AI/ML applications. It provides a questionnaire-based approach to threat modeling, ensuring that security and privacy requirements are met during the design phase. By acting as guardrails, Project GuardRail helps protect AI/ML applications against these threats.
+
+Project GuardRail is a comprehensive security framework that focuses on AI risk assessment across the entire lifecycle of AI applications. It provides a structured approach to identify and assess potential risks associated with AI technologies, enabling organizations to make informed decisions and implement appropriate risk mitigation measures.-->
 
 # Quick Start
 
 To quickly get started with Project GuardRail, follow these steps:
 
-1. Familiarize yourself with the threat modeling questionnaire and its structure.
+1. Familiarize yourself with the questionnaire on [this page](https://github.com/Comcast/ProjectGuardRail/tree/main/Questionnaire) and its structure.
+2. Determine the appropriate phase of the secure development lifecycle to incorporate AI risk assessment.
+3. Assess your AI application against the relevant risk assessment criteria provided by Project GuardRail.
+4. Implement the recommended risk mitigation measures and best practices based on the assessment results.
 
+<!--To quickly get started with Project GuardRail, follow these steps:
+
+1. Familiarize yourself with the threat modeling questionnaire and its structure.
 2. Determine the category that your AI/ML application falls into: baseline, continuous learning, user-interacting, or generative AI.
-3. 
-4. Assess your application against the relevant set of requirements outlined in the questionnaire.
+3. Assess your application against the relevant set of requirements outlined in the questionnaire. -->
+
+# Who Can Benefit?
+Project GuardRail is beneficial for 
+- developers,
+- data scientists,
+- security professionals,
+- project managers,
+- and organizations involved in the development and deployment of AI applications, including third-party AI vendors.
+
+It provides comprehensive guidance and a structured approach to assess AI risks, ensuring the implementation of appropriate security measures and adherence to necessary security and privacy requirements throughout the application's lifecycle.
+
+<!--Project GuardRail is beneficial for developers, data scientists, security professionals, and project managers involved in the development and deployment of AI applications. It provides guidance and tools to aid in the assessment of AI risks, ensuring that appropriate security measures are implemented throughout the application's lifecycle.
+
+Project GuardRail is beneficial for developers and organizations working on AI/ML applications, as well as third-party AI vendors. It provides a structured approach to assess and address security threats, ensuring that AI/ML applications meet the necessary security and privacy requirements. -->
+
+# Purpose
+
+The purpose of Project GuardRail is to enable organizations to conduct comprehensive AI risk assessments at any phase of the AI application's lifecycle. This helps ensure potential security and privacy risks are identified and any relevant considerations are integrated from the early design phase.
+By identifying potential risks and vulnerabilities, Project GuardRail empowers organizations to make informed decisions regarding the security, privacy, and ethical considerations of their AI applications. By applying the [baseline](Questionnaire/baseline.md) and additional requirements ([additional1](Questionnaire/additional1.md) and [additional2](Questionnaire/additional2.md)) specific to different AI/ML application types, Project GuardRail helps scope and address the risks that these applications may face.
+
+<!--The purpose of Project GuardRail is to enable organizations to conduct comprehensive AI risk assessments at any phase of the AI application's lifecycle. By identifying potential risks and vulnerabilities, Project GuardRail empowers organizations to make informed decisions regarding the security, privacy, and ethical considerations of their AI applications.
+
+The purpose of Project GuardRail is to guide the threat modeling process for AI/ML applications, ensuring that security and privacy considerations are integrated from the early design phase. By applying the baseline and additional requirements specific to different AI/ML application types, Project GuardRail helps scope and address the threats that these applications may face.-->
 
 <!--## Contents
 
