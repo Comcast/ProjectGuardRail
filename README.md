@@ -69,6 +69,17 @@ By identifying potential risks and vulnerabilities, Project GuardRail empowers o
 
 The purpose of Project GuardRail is to guide the threat modeling process for AI/ML applications, ensuring that security and privacy considerations are integrated from the early design phase. By applying the baseline and additional requirements specific to different AI/ML application types, Project GuardRail helps scope and address the threats that these applications may face.-->
 
+## Use Cases
+<p align="center">
+  <img src="https://github.com/Comcast/ProjectGuardRail/blob/main/assets/usecases.png" width="600" height="400">
+</p>
+
+<!--<img src="https://example.com/image.png" alt="Description" width="300" height="200">-->
+<!--![image](https://github.com/Comcast/ProjectGuardRail/blob/main/assets/usecases.png)-->
+
+
+
+
 <!--## Contents
 
 - [Overview](#overview)
