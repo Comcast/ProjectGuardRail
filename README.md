@@ -8,13 +8,12 @@ Developed by the Comcast SPIDER Team</p>
 
 
 # Contents
-
 - [Project GuardRail](#project-guardrail)
 - [Quickstart](#quick-start)
 - [Who Can Benefit](#who-can-benefit)
 - [Purpose](#purpose)
+- [How](#how)
 - [Structure](#structure)
-- [Usage](#usage)
 - [Publications](#publications)
 - [Talks](#talks)
 - [External Visibility](#external-visibility)
@@ -23,13 +22,30 @@ Developed by the Comcast SPIDER Team</p>
 - [Contributions](#contributions)
 - [License](#license)
 
+
+<!--## Contents
+- [Overview](#overview)
+- [Structure](#structure)
+- [Usage](#usage)
+- [Publications](#publications)
+- [Talks](#talks)
+- [External Visibility](#external-visibility)
+- [Roadmap](#roadmap)
+- [Sources](#sources)
+- [Contributions](#contributions)
+- [License](#license) -->
+
 # Project GuardRail
 
-Project GuardRail is a comprehensive security framework that focuses on AI risk assessment across the entire lifecycle of AI applications. It is specifically designed to address the unique security risks faced by AI/ML applications. It provides a questionnaire-based approach to identify and assess potential risks associated with AI technologies, enabling organizations to make informed decisions and implement appropriate risk mitigation measures.
+Project GuardRail is a comprehensive security framework that focuses on AI risk assessment across the entire lifecycle of AI applications. It is specifically designed to address the unique security risks faced by AI/ML applications. It provides a questionnaire-based approach to identify and assess potential risks associated with AI technologies, enabling organizations to make informed decisions and implement appropriate risk mitigation measures. It can be integrated at any phase of the secure development lifecycle, allowing for continuous assessment and improvement of AI applications.
 
 <!--Project GuardRail is a comprehensive security framework specifically designed to address the unique security threats faced by AI/ML applications. It provides a questionnaire-based approach to threat modeling, ensuring that security and privacy requirements are met during the design phase. By acting as guardrails, Project GuardRail helps protect AI/ML applications against these threats.
 
 Project GuardRail is a comprehensive security framework that focuses on AI risk assessment across the entire lifecycle of AI applications. It provides a structured approach to identify and assess potential risks associated with AI technologies, enabling organizations to make informed decisions and implement appropriate risk mitigation measures.-->
+
+<!-- ## Overview
+
+AI/ML applications have unique security threats. Project GuardRail provides a questionnaire that includes a set of threat modeling questions for AI/ML applications. It helps ensure to meeting security and privacy requirements during the design phase, which serve as guardrails against those threats. The requirements help scope the threats to protect AI/ML applications against. It consists of a baseline set required for **all** AI/ML applications and two additional set of requirements that are specific to **continuous learning** and **user-interacting** models. There are four additional questions that are specific to generative AI applications only. -->
 
 # Quick Start
 
@@ -77,27 +93,25 @@ The purpose of Project GuardRail is to guide the threat modeling process for AI/
 <!--<img src="https://example.com/image.png" alt="Description" width="300" height="200">-->
 <!--![image](https://github.com/Comcast/ProjectGuardRail/blob/main/assets/usecases.png)-->
 
+- Secure Development: Project GuardRail enables developers to conduct AI risk assessments and incorporate security measures throughout the development process, ensuring that AI applications are built with a strong focus on security, privacy, and ethical considerations.
+- Compliance and Regulations: Organizations can leverage Project GuardRail to assess AI applications against industry-specific regulations and compliance requirements, ensuring adherence to data protection, privacy, and security standards.
+- Third-Party AI Vendors: Project GuardRail provides a structured approach for organizations to assess the security posture of AI solutions offered by third-party vendors, enabling informed decision-making and ensuring the selection of secure and reliable AI technologies.
+- Continuous Monitoring: By integrating Project GuardRail into the ongoing monitoring and maintenance of AI applications, organizations can proactively identify and address emerging risks, ensuring the ongoing security and integrity of their AI systems.
+- Risk Mitigation: Project GuardRail aids in identifying potential risks and vulnerabilities associated with AI technologies, allowing organizations to implement appropriate risk mitigation strategies and controls to protect against potential threats.
+- Ethical AI Development: Project GuardRail assists organizations in considering ethical implications and promoting responsible AI development by incorporating guidelines and assessments for fairness, transparency, and bias mitigation.
+
+# How?
+Project GuardRail provides a risk assessment questionnaire derived from various frameworks and sources. The questionnaire consists of baseline requirements applicable to all AI/ML applications, additional requirements for continuous learning and user-interacting models, and specific questions for generative AI applications. Each requirement is categorized into data, model, artefact, and system/infrastructure, based on the element of the ML application to which the threat is relevant. This questionnaire can be used as an assessment for both AI/ML applications as well as new third-party AI vendors. 
+
+After an application undergoes the usual security review process and it is determined that it is not an AI/ML-driven application, the review ends. Otherwise, the application developers can take the baseline assessment. Following this, depending on whether the underlying model fits into the two additional categories outlined above, additional assessment questions can be added. This questionnaire can then be reported to the threat modeling team for review. 
+
+To use Project GuardRail, assess your AI application against the provided risk assessment criteria, considering factors such as data handling, model robustness, privacy protection, and ethical considerations. Based on the assessment results, implement the recommended risk mitigation measures and best practices to enhance the security and reliability of your AI application.
 
 
+![Process-Diagram-GuardRail](assets/Process-Diagram-GuardRail.jpg)
 
-<!--## Contents
 
-- [Overview](#overview)
-- [Structure](#structure)
-- [Usage](#usage)
-- [Publications](#publications)
-- [Talks](#talks)
-- [External Visibility](#external-visibility)
-- [Roadmap](#roadmap)
-- [Sources](#sources)
-- [Contributions](#contributions)
-- [License](#license)
-
-## Overview
-
-AI/ML applications have unique security threats. Project GuardRail provides a questionnaire that includes a set of threat modeling questions for AI/ML applications. It helps ensure to meeting security and privacy requirements during the design phase, which serve as guardrails against those threats. The requirements help scope the threats to protect AI/ML applications against. It consists of a baseline set required for **all** AI/ML applications and two additional set of requirements that are specific to **continuous learning** and **user-interacting** models. There are four additional questions that are specific to generative AI applications only. -->
-
-## Structure
+# Structure
 The content of this library is derived from a variety of frameworks, lists, and sources, both from academia and industry. We have performed several iterations to refine the library to accurately determine the scope and language of the questions. The [sources](#sources) provided below offer a comprehensive list of all the materials contributing to this library. 
 
 As shown in the diagram below, the "Questionnaire for Manual Threat Modeling" defines the library. The 53 threats (and 4 additional generative AI threats) are divided into three categories as shown. 
@@ -114,35 +128,35 @@ Each requirement is divided into four sub categories - data, model, artefact (ou
 
 <b>Data</b> indicates all input information to the model that it trains on. <b>Model</b> indicates the source code of the AI/ML application. <b>Artefact</b> indicates the output of the model, including predictions if applicable. <b>System/infrastructure</b> is the underlying architecture supporting the model functionality, like hardware, for example. 
 
-## Usage
+<!--## Usage
 This threat modeling questionnaire can be used as an assessment for both AI/ML applications as well as new third-party AI vendors. After an application undergoes the usual security review process and it is determined that it is not an AI/ML-driven application, the review ends. Otherwise, the application developers can take the baseline assessment. Following this, depending on whether the underlying model fits into the two additional categories outlined above, additional assessment questions can be added. This questionnaire can then be reported to the threat modeling team for review. 
 
-![Process-Diagram-GuardRail](assets/Process-Diagram-GuardRail.jpg)
+![Process-Diagram-GuardRail](assets/Process-Diagram-GuardRail.jpg) -->
 
-## Publications
+# Publications
 Jayati Dev, Nuray Baltaci Akhuseyinoglu, Golam Kayas, Bahman Rashidi, Vaibhav Garg. [Building Guardrails in AI Systems with Threat Modeling](https://dl.acm.org/doi/abs/10.1145/3674845). Digital Government: Research and Practice (2024).
 
-## Talks
+# Talks
 Nuray Baltaci Akhuseyinoglu. AI Under the Hood: Unmasking Hidden Threats. [OWASP LASCON 2024](https://lascon.org/past-lascon-2024/).
 
 Nitish Uplavikar. AI Under the Hood: Unmasking Hidden Threats. [OWASP AppSec 2024](https://owasp2024globalappsecsanfra.sched.com/2024-09-27/overview).
 
 Yasmine Abdillahi, Jayati Dev. AI Risk Management: Adopt and Scale AI Threat Modeling. Executive Women’s Forum.  (2023)
 
-## External Visibility
+# External Visibility
 
 [NIST AI Risk Management Framework Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#:~:text=MEASURE-,2.7,-AI%20system%20security), Measure 2.7(2024)
 
 [OECD Catalogue of Tools & Metrics for Trustworthy AI](https://oecd.ai/en/catalogue/tools/project-guardrail)(2023) 
 
-## Roadmap
+# Roadmap
 Roadmap information is available in [CONTRIBUTION ROADMAP.md](CONTRIBUTION-ROADMAP.md).
 
 
-## Contributions 
+# Contributions 
 Contributions and suggestions from the open-source community are welcome. Please refer to the [Contributing.md](CONTRIBUTING.md) document for more information. All contributions must follow the [Comcast Code of Conduct](CODE_OF_CONDUCT.md).
 
-## Sources
+# Sources
 - Plot4AI: https://plot4.ai/ 
 - NIST AI Risk Management Framework 1.0: https://www.nist.gov/itl/ai-risk-management-framework 
 - ETSI GR SAI 004: https://www.etsi.org/deliver/etsi_gr/SAI/001_099/004/01.01.01_60/gr_SAI004v010101p.pdf
@@ -156,6 +170,6 @@ Contributions and suggestions from the open-source community are welcome. Please
 
 This repository will be updated as we use additional sources to update the library if required. 
 
-## License
+# License
 
 Licensed under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license.
