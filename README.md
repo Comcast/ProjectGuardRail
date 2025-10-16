@@ -173,3 +173,50 @@ This repository will be updated as we use additional sources to update the libra
 # License
 
 Licensed under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license.
+
+
+# Contents
+- [Project GuardRail](#project-guardrail)
+- [Quickstart](#quick-start)
+- [Who Can Benefit](#who-can-benefit)
+- [Purpose](#purpose)
+- [How](#how)
+- [Structure](#structure)
+- [AI Adversarial Threat & Robustness Tool Mapping](#ai-adversarial-threat--robustness-tool-mapping)
+- [Publications](#publications)
+- [Talks](#talks)
+- [External Visibility](#external-visibility)
+- [Roadmap](#roadmap)
+- [Sources](#sources)
+- [Contributions](#contributions)
+- [License](#license)
+
+# AI Adversarial Threat & Robustness Tool Mapping
+
+This section maps common AI adversarial threats and vulnerabilities to relevant robustness tools and corresponding GuardRail questions. The goal is to provide practitioners with a clear guide on how to identify threats using GuardRail and which tools can be leveraged to test or mitigate these risks. It also highlights potential gaps and areas for future enhancement in both tools and GuardRail questions.
+
+## Understanding the Mapping
+
+The table below provides a structured overview of known adversarial threats, the tools available to address them, and specific GuardRail questions that help assess an AI system's resilience.
+
+| Adversarial Threat/Vulnerability | Relevant Robustness Tools | GuardRail Questions (References) | Tool Capabilities/Limitations | Suggested Enhancements/Gaps |
+|----------------------------------|---------------------------|----------------------------------|-------------------------------|-----------------------------|
+|                                  |                           |                                  |                               |                             |
+
+## How to Contribute
+
+We welcome contributions to enhance this table. If you'd like to add a new threat, suggest a tool, or improve existing information, please follow these guidelines:
+
+1.  **Fork the Repository:** Begin by forking the [Project GuardRail repository](https://github.com/Comcast/ProjectGuardRail).
+2.  **Create a New Branch:** Create a new branch for your contributions (e.g., `feat/add-threat-mapping-X`).
+3.  **Edit `README.md`:** Navigate to the "AI Adversarial Threat & Robustness Tool Mapping" section within `README.md`.
+4.  **Add/Update Table Entries:**
+    *   **New Threats/Vulnerabilities:** Add a new row for any unlisted adversarial threats, providing a concise definition.
+    *   **Relevant Robustness Tools:** List specific tools that can address or test against the threat. Include links to official documentation or repositories where possible.
+    *   **GuardRail Questions:** Identify any existing GuardRail questions that evaluate resilience against the threat. Provide direct links to the relevant line in the questionnaire files (e.g., `Questionnaire/baseline.md#LXX`). If no suitable question exists, note this as a gap and consider proposing a new question (see below).
+    *   **Tool Capabilities/Limitations:** Briefly describe the strengths and weaknesses of the listed tools in the context of the specific threat.
+    *   **Suggested Enhancements/Gaps:** Propose ideas for improving existing tools, identifying needs for new tools, or suggesting missing GuardRail questions for comprehensive coverage.
+5.  **Propose New GuardRail Questions (If Needed):** If you identify a threat not adequately covered by existing GuardRail questions, please open an issue in the repository to propose new questions. Refer to `CONTRIBUTING.md` for general guidelines on suggesting new questionnaire content.
+6.  **Submit a Pull Request:** Once your changes are complete, submit a pull request to the `main` branch of the Project GuardRail repository. Please provide a clear description of your contributions in the PR.
+
+For general contribution guidelines, please refer to the main [CONTRIBUTING.md](CONTRIBUTING.md) document. We appreciate your contributions to making Project GuardRail a more robust and helpful resource!
